@@ -5,6 +5,7 @@ $font-sans: Source+Sans+Pro
 
 body
     font-family: $font-monts
+    text-align: center
 .btn
         border-radius: 20px
         border: 1px solid #4d4d4d
@@ -13,18 +14,28 @@ body
         font-size: 21px
         font-weight: 700
         line-height: 20.45px
-        &:hover
-            box-shadow: 0 18px 27px 2px rgba(0, 0, 0, 0.1)
-            background-color: transparent
+       
+ul
+    list-style: none
 
 .fork
-    display: flex
-    flex-direction: column
-    background: url(../img/img-desk.png) center
     text-align: center
 
+    .btn
+        
+        transform: translateY(-50%)
+
+
+    .container-fluid
+        background: url(../img/img-desk.png) center
+        padding-bottom: 350px
+
     h1
-        color: #fff
+        color: #d4d4d4
+        font-size: 82px
+        font-weight: 700
+        margin: 0
+        
 
         
 
@@ -42,3 +53,175 @@ body
         text-transform: uppercase
 
     
+    .trial
+        color: #848e97
+        font-size: 14px
+        font-weight: 400
+
+.editor
+    overflow: hidden
+        
+    h2
+        color: #635c73
+        font-size: 48px
+        font-weight: 700
+        line-height: 48px
+        text-transform: uppercase
+
+    p
+        opacity: 0.8
+        color: #323232
+        font-family: "Source Sans Pro"
+        font-size: 16px
+        font-weight: 400
+        line-height: 26px
+        padding: 38px 0
+
+
+
+
+.features
+    background: #f4f4f4
+    padding-top: 50px
+
+    .left
+        h3
+            color: #8d81ac
+            font-size: 48px
+            font-weight: 700
+            line-height: 54px
+
+        h4
+            color: #323232
+            font-size: 16px
+            font-weight: 400
+            line-height: 21px
+        p
+            color: #848e97
+            font-family: "Source Sans Pro"
+            font-size: 14px
+            font-weight: 400
+            line-height: 21px
+
+        .row
+            margin-top: 60px
+
+    .right
+        overflow: hidden
+        box-shadow: 0 0 25px rgba(0, 5, 5, 0.3)
+        background-color: #2b2d2e
+        background-image: linear-gradient(to top, rgba(0, 0, 0, 0.5) 0%, rgba(71, 72, 68, 0) 100%)
+        opacity: 0.95
+
+        i
+            color: #848e97
+            margin: 24px 0 50px
+
+        p
+            color: #c7c7c7
+            font-size: 14px
+            font-weight: 400
+            text-align: left
+            margin-left: 30px
+
+        p.fork
+            margin-top: 24px
+            padding-left: 190px
+
+.ssocial
+    padding-bottom: 80px
+        
+
+    .left
+        text-align: left 
+        h5
+            color: #474747
+            font-size: 24px
+            font-weight: 700
+            margin: 0
+
+        p
+            color: #8d81ac
+            font-size: 16px
+            font-weight: 400
+            line-height: 32px
+
+    .social
+        color: #848e97
+
+                 
+
+        .my-btn
+            border-radius: 2px
+            padding: 16px 80px 16px 20px
+            color: #d4d4d4
+            font-size: 21px
+            font-weight: 400
+
+            a
+                color: #d4d4d4
+                text-decoration: none
+
+                .txt
+                    padding-left: 50px
+                    
+
+        .git a
+            color: #000
+            
+        .git
+            background: #f3f3f3
+
+        .twitter
+            background-color: #26a6d1
+
+        .facebook
+            background-color: #3b5998
+
+        p 
+            padding-top: 20px
+        
+    // img
+    //     margin: 25px 
+
+.testimonials
+    padding: 80px 100px 90px
+    background: url(../img/Layer_desk.png) center no-repeat
+    background-color: #4b3b4e
+
+    h2 
+        color: #FFF
+        padding-bottom: 70px
+
+    .people 
+        padding-bottom: 80px
+
+    .people p
+        padding-top: 20px 
+        color: #FFF
+        font-size: 16px
+        font-style: italic
+        font-family: $font-sans
+
+    .hr
+        border-bottom: 1px solid #c7c7c7
+
+.pricing
+    padding: 80px 100px 90px
+    background: url(../img/Layer_2desk.png) center no-repeat
+    background-color: #4b3b4e
+    color: #d4d4d4
+
+    h2 
+        color: #FFF
+        padding-bottom: 70px
+
+    .card
+        background-color: #e4eaea1f
+        
+    .card:hover 
+        transform: scaleY(1.1)
+        background-color: #3f496b14
+
+    p
+        padding-top: 130px

@@ -15,48 +15,50 @@
 </head>
 
 <body>
-    
+
     <header>
-       
-                <nav class="navbar navbar-expand-md navbar-collapse-sm">
-                    <a class="navbar-brand" href="#"><img src="img/logo.png" alt="logo"> FORK<span>IO</span></a>
-                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
-                        <span class="navbar-toggler-icon"><img src="img/sandwich.png" alt="sandwich"></span>
-                    </button>
-                    <div class="collapse navbar-collapse" id="collapsibleNavbar">
-                        <ul class="navbar-nav">
-                            <li class="nav-item">
-                                <a class="nav-link" href="#">Overview</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="#">About Fork</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="#">Buying</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="#">Options</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="#">Support</a>
-                            </li>
-                        </ul>
-                    </div>
-                    <form class="form-inline">
-                            <button class="btn " type="submit">Buy Now</button>
-                        </form>
-                </nav>
-           
+
+        <nav class="navbar navbar-expand-md navbar-collapse-sm">
+            <a class="navbar-brand" href="#"><img src="img/logo.png" alt="logo"> FORK<span>IO</span></a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+                <span class="navbar-toggler-icon"><img src="img/sandwich.png" alt="sandwich"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="collapsibleNavbar">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Overview</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">About Fork</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Buying</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Options</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Support</a>
+                    </li>
+                </ul>
+            </div>
+            <form class="form-inline">
+                <button class="btn " type="submit">Buy Now</button>
+            </form>
+        </nav>
+
     </header>
     <section class="fork">
-        <h1>Fork App</h1>
-        <p class="title">A real gamechanger in the world of web development</p>
-        <p class="vers">v. 2.8 For Mac and Windows</p>
+        <div class="container-fluid">
+            <h2>Fork App</h1>
+            <p class="title">A real gamechanger in the world of web development</p>
+            <p class="vers">v. 2.8 For Mac and Windows</p>
+        </div>
         <a href="#"><button class="btn">Download For Free Now</button></a>
         <p class="trial">Unlimited 30-Days Trial Period</p>
     </section>
 
-    <section>
+    <section class="editor p-2">
         <h2>Revolutionary editor</h2>
         <p>Aenean cursus imperdiet nisl id fermentum. Aliquam pharetra dui laoreet vulputate dignissim. Sed id metus id
             quam auctor molestie eget ut augue. </p>
@@ -70,115 +72,153 @@
             data-show-count="true" aria-label="Fork ntkme/github-buttons on GitHub">Fork</a>
     </section>
 
-    <section>
-        <div class="left">
+    <section class="features row">
+        <div class="left col-md-6">
             <h3>
-                Here is what you get
+                &lt;Here is what you get&gt;
             </h3>
-            <div class="get">
-                <img src="img/icon1.png" alt="Creatred to Make">
-                <h4>Creatred to Make The Web Better</h4>
-                <p>Aenean cursus imperdiet nisl id fermentum. Aliquam pharetra dui laoreet vulputate dignissim. Sed id
-                    metus id quam auctor molestie eget ut augue. </p>
-            </div>
-            <div class="get">
-                <img src="img/icon2.png" alt="Incredibly Powerful Tool">
-                <h4>Incredibly Powerful Tool</h4>
-                <p>Maecenas eu dictum felis, a dignissim nibh. Mauris rhoncus felis odio, ut volutpat massa placerat
-                    ac. Curabitur dapibus iaculis mi gravida luctus. Aliquam erat volutpat. </p>
-            </div>
-            <div class="get">
-                <img src="img/icon3.png" alt="Experimental Stuff">
-                <h4>Experimental Stuff</h4>
-                <p>Maecenas eu dictum felis, a dignissim nibh. Mauris rhoncus felis odio, ut volutpat massa placerat
-                    ac. Curabitur dapibus iaculis mi gravida luctus. Aliquam erat volutpat. </p>
-            </div>
-            <div class="get">
-                <img src="img/icon4.png" alt="Creatred to Make The Web Better">
-                <h4>Creatred to Make The Web Better</h4>
-                <p>Maecenas eu dictum felis, a dignissim nibh. Mauris rhoncus felis odio, ut volutpat massa placerat
-                    ac. Curabitur dapibus iaculis mi gravida luctus. Aliquam erat volutpat. </p>
+            <div class="row">
+
+                <div class="col-4 align-content-start"> <img src="img/icon1.png" alt="Creatred to Make"></div>
+                <div class="get col-8">
+                    <h4>Creatred to Make The Web Better</h4>
+                    <p>Aenean cursus imperdiet nisl id fermentum. Aliquam pharetra dui laoreet vulputate dignissim. Sed
+                        id
+                        metus id quam auctor molestie eget ut augue. </p>
+                </div>
+
+                <div class="col-4 align-content-start"><img src="img/icon2.png" alt="Incredibly Powerful Tool"></div>
+                <div class="get col-8">
+                    <h4>Incredibly Powerful Tool</h4>
+                    <p>Maecenas eu dictum felis, a dignissim nibh. Mauris rhoncus felis odio, ut volutpat massa
+                        placerat
+                        ac. Curabitur dapibus iaculis mi gravida luctus. Aliquam erat volutpat. </p>
+                </div>
+
+                <div class="col-4 align-content-start"><img src="img/icon3.png" alt="Experimental Stuff"></div>
+                <div class="get col-8">
+                    <h4>Experimental Stuff</h4>
+                    <p>Maecenas eu dictum felis, a dignissim nibh. Mauris rhoncus felis odio, ut volutpat massa
+                        placerat
+                        ac. Curabitur dapibus iaculis mi gravida luctus. Aliquam erat volutpat. </p>
+                </div>
+
+                <div class="col-4 align-content-start"><img src="img/icon4.png" alt="Creatred to Make The Web Better"></div>
+                <div class="get col-8">
+                    <h4>Creatred to Make The Web Better</h4>
+                    <p>Maecenas eu dictum felis, a dignissim nibh. Mauris rhoncus felis odio, ut volutpat massa
+                        placerat
+                        ac. Curabitur dapibus iaculis mi gravida luctus. Aliquam erat volutpat. </p>
+                </div>
             </div>
         </div>
-        <div class="right">
-            <i class="fa fa-circle" aria-hidden="true"></i>
-            <i class="fa fa-circle" aria-hidden="true"></i>
-            <i class="fa fa-circle" aria-hidden="true"></i>
-            <p>index.html</p>
-            <p>main.css</p>
-            <img src="img/code-desk.png" alt="code">
+        <div class="right col-md-6">
+            <div class="row">
+                <div class="col-6 col-md-4">
+                    <i class="fa fa-circle" aria-hidden="true"></i>
+                    <i class="fa fa-circle" aria-hidden="true"></i>
+                    <i class="fa fa-circle" aria-hidden="true"></i>
+                    <p>index.html</p>
+                    <p>main.css</p>
+                </div>
+                <div class="col-6 col-md-8">
+                    <p class="d-none d-lg-block fork">Hello Fork</p>
+                    <img src="img/code-desk.png" alt="code">
+                </div>
+            </div>
         </div>
     </section>
 
-    <section>
-        <img src="img/userpic.png" alt="userpic">
-        <h5>Steven Strange</h5>
-        <p>@DoctorS</p>
-        <i class="fa fa-angle-left" aria-hidden="true"></i>
-        <p><span>@Pixelbuddha</span> Suspendisse sodales sem est, in scelerisque felis scelerisque in. Aenean faucibus
-            mollis risus. Praesent sit amet erat eget eros.</p>
-        <p>2 hours ago</p>
-        <i class="fa fa-angle-right" aria-hidden="true"></i>
-        <ul class="social">
-            <li>
-                <button><a href="https://github.com/"><i class="fa fa-github" aria-hidden="true"></i>&nbsp;</i></a>GitHub</button>
+    <section class="ssocial p-4 p-md-10">
+        <div class="d-flex justify-content-center">
+            <div>
+                <img src="img/userpic.png" alt="userpic" class="mr-3">
+            </div>
+            <div class="left">
+                <h5 class="text-align-left">Steven Strange</h5>
+                <p class="text-align-left">@DoctorS</p>
+            </div>
+        </div>
+        <div class="d-flex justify-content-center align-self-stretch">
+            <i class="pr-4 fa fa-angle-left align-self-center" aria-hidden="true"></i>
+            <div class="d-flex flex-column">
+                <p><span>@Pixelbuddha</span> Suspendisse sodales sem est, in scelerisque felis scelerisque in. Aenean
+                    faucibus
+                    mollis risus. Praesent sit amet erat eget eros.</p>
+                <p>2 hours ago</p>
+            </div>
+            <i class="pl-4 fa fa-angle-right align-self-center" aria-hidden="true"></i>
+        </div>
+        <ul class="social row">
+            <li class="col-lg-4">
+                <button class="git my-btn"><a href="https://github.com/"><i class="fa fa-github" aria-hidden="true"></i><span
+                            class="txt">GitHub</span></a></button>
                 <p>7 352 Followers</p>
             </li>
-            <li>
-                <button> <a href="https://twitter.com/"><i class="fa fa-twitter" aria-hidden="true">&nbsp;</i></a>Twitter</button>
+            <li class="col-lg-4">
+                <button class="twitter my-btn"> <a href="https://twitter.com/"><i class="fa fa-twitter" aria-hidden="true"></i><span
+                            class="txt">Twitter</span></a></button>
                 <p>136 312 Followers</p>
             </li>
-            <li>
-                <button><a href="https://www.facebook.com/"><i class="fa fa-facebook" aria-hidden="true">&nbsp;</i></a>Facebook</button>
+            <li class="col-lg-4">
+                <button class="facebook my-btn"><a href="https://www.facebook.com/"><i class="fa fa-facebook"
+                            aria-hidden="true"></i><span class="txt">Facebook</span></a></button>
                 <p>218 092 Subscribers</p>
             </li>
         </ul>
 
     </section>
 
-    <section>
+    <section class="testimonials">
         <h2>People Are Talking About Fork</h2>
-        <div class="people">
-            <img src="img/smashing.png" alt="smashing">
-            <p>Sed vestibulum scelerisque urna, eu finibus leo facilisis sit amet. Proin id dignissim magna. Sed varius
-                urna et pulvinar venenatis. </p>
+        <div class="row">
+            <div class="people col-md-4">
+                <img src="img/smashing.png" alt="smashing">
+                <p>Sed vestibulum scelerisque urna, eu finibus leo facilisis sit amet. Proin id dignissim magna. Sed
+                    varius
+                    urna et pulvinar venenatis. </p>
+            </div>
+            <div class="people col-md-4">
+                <img src="img/codrops.png" alt="codrops">
+                <p>Donec euismod dolor ut ultricies consequat. Vivamus urna ipsum, rhoncus molestie neque ac, mollis
+                    eleifend nibh.</p>
+            </div>
+            <div class="people col-md-4">
+                <img src="img/w.png" alt="w">
+                <p>In efficitur in velit et tempus. Duis nec odio dapibus, suscipit erat fringilla, imperdiet nibh.
+                    Morbi
+                    tempus auctor felis ac vehicula. </p>
+            </div>
+            <div class="people col-md-4">
+                <img src="img/pixel.png" alt="Pixelbuddha">
+                <p>Sed vestibulum scelerisque urna, eu finibus leo facilisis sit amet. Proin id dignissim magna. Sed
+                    varius
+                    urna et pulvinar venenatis. </p>
+            </div>
+            <div class="people col-md-4">
+                <img src="img/creative.png" alt="creative blog">
+                <p>Praesent ut eros tristique, malesuada lectus vel, lobortis massa. Nulla faucibus lorem id arcu
+                    consequat
+                    faucibus.</p>
+            </div>
+            <div class="people col-md-4">
+                <img src="img/tnw.png" alt="tnw">
+                <p>Fusce pharetra erat id odio blandit, nec
+                    pharetra eros venenatis. Pellentesque porttitor cursus massa et vestibulum.</p>
+            </div>
         </div>
-        <div class="people">
-            <img src="img/codrops.png" alt="codrops">
-            <p>Donec euismod dolor ut ultricies consequat. Vivamus urna ipsum, rhoncus molestie neque ac, mollis
-                eleifend nibh.</p>
-        </div>
-        <div class="people">
-            <img src="img/w.png" alt="w">
-            <p>In efficitur in velit et tempus. Duis nec odio dapibus, suscipit erat fringilla, imperdiet nibh. Morbi
-                tempus auctor felis ac vehicula. </p>
-        </div>
-        <div class="people">
-            <img src="img/pixel.png" alt="Pixelbuddha">
-            <p>Sed vestibulum scelerisque urna, eu finibus leo facilisis sit amet. Proin id dignissim magna. Sed varius
-                urna et pulvinar venenatis. </p>
-        </div>
-        <div class="people">
-            <img src="img/creative.png" alt="creative blog">
-            <p>Praesent ut eros tristique, malesuada lectus vel, lobortis massa. Nulla faucibus lorem id arcu consequat
-                faucibus.</p>
-        </div>
-        <div class="people">
-            <img src="img/tnw.png" alt="tnw">
-            <p>Fusce pharetra erat id odio blandit, nec
-                pharetra eros venenatis. Pellentesque porttitor cursus massa et vestibulum.</p>
-        </div>
+        <div class="hr container-fluid m-3">&nbsp;</div>
     </section>
 
-    <section>
+    <section class="pricing">
         <h2>Fork Subscription Pricing</h2>
-        <div class="card-deck mb-3 text-center">
-            <div class="card mb-3 box-shadow">
+        <div class="row text-center">
+            <div class="card mb-3 box-shadow col-md-6 col-lg-3">
                 <div class="card-header">
-                    <h4 class="my-0 font-weight-normal">Students</h4>
+                    <h4 class="p-2 my-0 font-weight-normal text-uppercase">Students</h4>
                 </div>
                 <div class="card-body">
-                    <h1 class="card-title pricing-card-title">$29</h1>
+                    <h2 class="card-title pricing-card-title">$29</h1>
                     <ul class="list-unstyled mt-3 mb-4">
                         <li>per month</li>
                         <li></li>
@@ -188,12 +228,12 @@
                     <button type="button" class="btn btn-lg btn-block btn-outline-primary">purchase</button>
                 </div>
             </div>
-            <div class="card mb-3 box-shadow">
+            <div class="card mb-3 box-shadow col-md-6 col-lg-3">
                 <div class="card-header">
-                    <h4 class="my-0 font-weight-normal">professional</h4>
+                    <h4 class="my-0 font-weight-normal text-uppercase">professional</h4>
                 </div>
                 <div class="card-body">
-                    <h1 class="card-title pricing-card-title">$59</h1>
+                    <h2 class="card-title pricing-card-title">$59</h1>
                     <ul class="list-unstyled mt-3 mb-4">
                         <li>per Month</li>
                         <li></li>
@@ -203,12 +243,12 @@
                     <button type="button" class="btn btn-lg btn-block btn-primary">purchase</button>
                 </div>
             </div>
-            <div class="card mb-3 box-shadow">
+            <div class="card mb-3 box-shadow col-md-6 col-lg-3">
                 <div class="card-header">
-                    <h4 class="my-0 font-weight-normal">agency</h4>
+                    <h4 class="my-0 font-weight-normal text-uppercase">agency</h4>
                 </div>
                 <div class="card-body">
-                    <h1 class="card-title pricing-card-title">$99</h1>
+                    <h2 class="card-title pricing-card-title">$99</h1>
                     <ul class="list-unstyled mt-3 mb-4">
                         <li>per month</li>
                         <li></li>
@@ -219,12 +259,12 @@
                 </div>
             </div>
 
-            <div class="card mb-3 box-shadow">
+            <div class="card mb-3 box-shadow col-md-6 col-lg-3">
                 <div class="card-header">
-                    <h4 class="my-0 font-weight-normal">Enterprise</h4>
+                    <h4 class="my-0 font-weight-normal text-uppercase">Enterprise</h4>
                 </div>
                 <div class="card-body">
-                    <h1 class="card-title pricing-card-title">$159</h1>
+                    <h2 class="card-title pricing-card-title">$159</h1>
                     <ul class="list-unstyled mt-3 mb-4">
                         <li>per month</li>
                         <li></li>
@@ -236,6 +276,9 @@
             </div>
         </div>
         </div>
+        <p>Duis lobortis arcu sed arcu tincidunt feugiat. Nulla nisi mauris, facilisis vitae aliquet id, imperdiet quis
+            nibh. Donec eget elit eu libero tincidunt consequat nec elementum orci. Cum sociis natoque penatibus et
+            magnis dis parturient montes, nascetur ridiculus mus. </p>
     </section>
 
     <section>
@@ -293,11 +336,13 @@
             <button>Go to Blog</button>
         </div>
     </section>
-    <footer>
+    <footer class="row">
         <nav class="navbar navbar-expand-lg navbar-light bg-light">
-            <div>
+            <div class="col-3">
                 <a class="navbar-brand" href="#"><img src="img/logo.png" alt="logo"> FORKIO</a>
                 <p>Lorem ipsum dolor sit amet, feugiat delicat liberavisse id cum no quo.</p>
+            </div>
+            <div class="col-3">
                 <h5>Navigation</h5>
                 <ul class="navbar-nav">
                     <li class="nav-item">
@@ -318,14 +363,17 @@
                 </ul>
             </div>
 
-            <div>
+            <div class="col-3">
                 <h4>347 567 78 90</h4>
                 <p>AVAILABLE AT 12PM - 18PM</p>
                 <h5>New York, NY</h5>
                 <p>560 Judah St & 15th Ave, Apt 5
                     San Francisco, CA, 230903</p>
+            </div>
+            <div class="col-3">
                 <h5>Info</h5>
-                <p>Wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip
+                <p>Wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut
+                    aliquip
                     ex
                     commodo consequat. Autem vel hendrerit iriure dolor in hendrerit.</p>
             </div>
