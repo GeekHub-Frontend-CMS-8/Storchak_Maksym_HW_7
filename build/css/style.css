@@ -1,18 +1,23 @@
+html {
+  font-size: 14px; }
+
 body {
   font-family: Montserrat;
   text-align: center; }
 
 .btn {
-  border-radius: 20px;
+  border-radius: 1.1rem;
   border: 1px solid #4d4d4d;
   background-color: #8d81ac;
   color: #d4d4d4;
-  font-size: 21px;
-  font-weight: 700;
-  line-height: 20.45px; }
+  font-size: 1.1rem;
+  font-weight: 700; }
 
 ul {
   list-style: none; }
+
+.logo-iks {
+  color: #8d81ac; }
 
 .fork {
   text-align: center; }
@@ -161,12 +166,107 @@ ul {
   background-color: #4b3b4e;
   color: #d4d4d4; }
   .pricing h2 {
-    color: #FFF;
-    padding-bottom: 70px; }
+    color: #FFF; }
+  .pricing h4 {
+    color: #d4d4d4;
+    font-weight: 700; }
   .pricing .card {
     background-color: #e4eaea1f; }
   .pricing .card:hover {
     transform: scaleY(1.1);
     background-color: #3f496b14; }
-  .pricing p {
-    padding-top: 130px; }
+  .pricing .pricing-card-title {
+    font-size: 60px;
+    font-weight: 700; }
+  .pricing .duration {
+    font-size: 14px;
+    opacity: 0.3; }
+  .pricing .hr {
+    border-bottom: 5px solid #8d81ac;
+    margin: 0 30%;
+    font-size: 5px; }
+  .pricing .card-body p {
+    font-size: 16px;
+    padding: 0;
+    margin: 0; }
+  .pricing .card-body .btn {
+    font-weight: 700;
+    font-size: 12px;
+    text-transform: uppercase;
+    color: #FFF; }
+
+.subscribe {
+  background-color: #f4f4f4; }
+  .subscribe h3, .subscribe .container {
+    padding: 3.14rem 0; }
+  .subscribe .btn {
+    font-size: 0.7rem;
+    padding: 0.6rem 0; }
+  .subscribe input {
+    border-radius: 1.2rem; }
+
+.links {
+  text-align: left;
+  padding: 4.5rem 2.5rem; }
+  .links h3 {
+    font-size: 2rem;
+    color: #d3d1da;
+    margin: 4.1rem 0 2.7rem; }
+  .links h5 {
+    color: #323232;
+    font-size: 1.1rem;
+    margin-bottom: 2.3rem 0 1.6rem; }
+  .links p {
+    color: #848e97;
+    font-size: 0.92rem; }
+  .links .btn-secondary {
+    background-color: #f4f4f4;
+    color: #8d81ac;
+    font-size: 1rem;
+    line-height: 2rem;
+    border: none;
+    border-radius: 2px;
+    padding: 0 1.4rem; }
+
+footer {
+  font-size: 1rem;
+  padding: 4.5rem 2.5rem;
+  border-top: 1px solid #c7c7c7;
+  margin: 0 1rem; }
+  footer .navbar {
+    padding: 0;
+    background: transparent !important; }
+  footer .navbar-brand {
+    margin-bottom: 1.7rem; }
+  footer .navbar-nav {
+    flex-wrap: wrap; }
+  footer h5 {
+    margin-top: 0.7rem; }
+  footer .nav-link {
+    padding: 0;
+    margin: -0.1rem;
+    color: #8d81ac !important;
+    font-size: 1.05rem;
+    letter-spacing: 0.03rem; }
+  footer .address {
+    margin-top: 2.5rem; }
+    footer .address h4 {
+      color: #31384d;
+      font-size: 2.14rem;
+      font-weight: 700; }
+    footer .address .avialable {
+      color: #848e97;
+      font-size: 0.86rem; }
+    footer .address p.address {
+      width: 50%; }
+  footer p {
+    color: #848e97;
+    font-size: 1rem;
+    letter-spacing: 0.28px;
+    margin: 0; }
+  footer h5 {
+    margin-top: 2.71rem;
+    margin-bottom: 1.5rem;
+    color: #323232;
+    font-size: 1.14rem;
+    font-weight: 700; }
